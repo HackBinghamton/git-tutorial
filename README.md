@@ -53,7 +53,9 @@ To see what was saved, type `git show`. If you want to see a log of all of your 
 
 ## What about GitHub?
 Now that you have a git repository on your computer, you might want to back it up somewhere safe.
-By uploading your git repository to github, you'll let other people see what you're working on and allow others to help you make an awesome project.
+By uploading your git repository to GitHub, you'll let other people see what you're working on and allow others to help you make an awesome project.
+You'll need a [GitHub account](https://github.com/join) to do this.
+Make sure you use the same email that you configured git with when you join.
 
 ### Make the repository
 ![New Repository](newrepo.png)
@@ -67,5 +69,6 @@ Since you already made the repo locally, we want to start with an empty repo.
 ### Follow the instructions
 ![Push Repository](pushrepo.png)
 
+You'll be prompted for your GitHub username and password so that they know it's you.
 After running `git push -u origin master`, your code should be on GitHub!
 If you make more changes, you can run `git push` after committing your files to send the changes to GitHub.
